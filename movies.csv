@@ -1,0 +1,201 @@
+movieId,title,genres
+1,Toy Story (1995 alt 1),Adventure|Animation|Children|Comedy|Fantasy
+2,Jumanji (1995 alt 1),Adventure|Children|Fantasy
+3,Grumpier Old Men (1995 alt 1),Comedy|Romance
+4,Waiting to Exhale (1995 alt 1),Comedy|Drama|Romance
+5,Father of the Bride Part II (1995 alt 1),Comedy
+6,Toy Story (1995 alt 2),Adventure|Animation|Children|Comedy|Fantasy
+7,Jumanji (1995 alt 2),Adventure|Children|Fantasy
+8,Grumpier Old Men (1995 alt 2),Comedy|Romance
+9,Waiting to Exhale (1995 alt 2),Comedy|Drama|Romance
+10,Father of the Bride Part II (1995 alt 2),Comedy
+11,Toy Story (1995 alt 3),Adventure|Animation|Children|Comedy|Fantasy
+12,Jumanji (1995 alt 3),Adventure|Children|Fantasy
+13,Grumpier Old Men (1995 alt 3),Comedy|Romance
+14,Waiting to Exhale (1995 alt 3),Comedy|Drama|Romance
+15,Father of the Bride Part II (1995 alt 3),Comedy
+16,Toy Story (1995 alt 4),Adventure|Animation|Children|Comedy|Fantasy
+17,Jumanji (1995 alt 4),Adventure|Children|Fantasy
+18,Grumpier Old Men (1995 alt 4),Comedy|Romance
+19,Waiting to Exhale (1995 alt 4),Comedy|Drama|Romance
+20,Father of the Bride Part II (1995 alt 4),Comedy
+21,Toy Story (1995 alt 5),Adventure|Animation|Children|Comedy|Fantasy
+22,Jumanji (1995 alt 5),Adventure|Children|Fantasy
+23,Grumpier Old Men (1995 alt 5),Comedy|Romance
+24,Waiting to Exhale (1995 alt 5),Comedy|Drama|Romance
+25,Father of the Bride Part II (1995 alt 5),Comedy
+26,Toy Story (1995 alt 6),Adventure|Animation|Children|Comedy|Fantasy
+27,Jumanji (1995 alt 6),Adventure|Children|Fantasy
+28,Grumpier Old Men (1995 alt 6),Comedy|Romance
+29,Waiting to Exhale (1995 alt 6),Comedy|Drama|Romance
+30,Father of the Bride Part II (1995 alt 6),Comedy
+31,Toy Story (1995 alt 7),Adventure|Animation|Children|Comedy|Fantasy
+32,Jumanji (1995 alt 7),Adventure|Children|Fantasy
+33,Grumpier Old Men (1995 alt 7),Comedy|Romance
+34,Waiting to Exhale (1995 alt 7),Comedy|Drama|Romance
+35,Father of the Bride Part II (1995 alt 7),Comedy
+36,Toy Story (1995 alt 8),Adventure|Animation|Children|Comedy|Fantasy
+37,Jumanji (1995 alt 8),Adventure|Children|Fantasy
+38,Grumpier Old Men (1995 alt 8),Comedy|Romance
+39,Waiting to Exhale (1995 alt 8),Comedy|Drama|Romance
+40,Father of the Bride Part II (1995 alt 8),Comedy
+41,Toy Story (1995 alt 9),Adventure|Animation|Children|Comedy|Fantasy
+42,Jumanji (1995 alt 9),Adventure|Children|Fantasy
+43,Grumpier Old Men (1995 alt 9),Comedy|Romance
+44,Waiting to Exhale (1995 alt 9),Comedy|Drama|Romance
+45,Father of the Bride Part II (1995 alt 9),Comedy
+46,Toy Story (1995 alt 10),Adventure|Animation|Children|Comedy|Fantasy
+47,Jumanji (1995 alt 10),Adventure|Children|Fantasy
+48,Grumpier Old Men (1995 alt 10),Comedy|Romance
+49,Waiting to Exhale (1995 alt 10),Comedy|Drama|Romance
+50,Father of the Bride Part II (1995 alt 10),Comedy
+51,Toy Story (1995 alt 11),Adventure|Animation|Children|Comedy|Fantasy
+52,Jumanji (1995 alt 11),Adventure|Children|Fantasy
+53,Grumpier Old Men (1995 alt 11),Comedy|Romance
+54,Waiting to Exhale (1995 alt 11),Comedy|Drama|Romance
+55,Father of the Bride Part II (1995 alt 11),Comedy
+56,Toy Story (1995 alt 12),Adventure|Animation|Children|Comedy|Fantasy
+57,Jumanji (1995 alt 12),Adventure|Children|Fantasy
+58,Grumpier Old Men (1995 alt 12),Comedy|Romance
+59,Waiting to Exhale (1995 alt 12),Comedy|Drama|Romance
+60,Father of the Bride Part II (1995 alt 12),Comedy
+61,Toy Story (1995 alt 13),Adventure|Animation|Children|Comedy|Fantasy
+62,Jumanji (1995 alt 13),Adventure|Children|Fantasy
+63,Grumpier Old Men (1995 alt 13),Comedy|Romance
+64,Waiting to Exhale (1995 alt 13),Comedy|Drama|Romance
+65,Father of the Bride Part II (1995 alt 13),Comedy
+66,Toy Story (1995 alt 14),Adventure|Animation|Children|Comedy|Fantasy
+67,Jumanji (1995 alt 14),Adventure|Children|Fantasy
+68,Grumpier Old Men (1995 alt 14),Comedy|Romance
+69,Waiting to Exhale (1995 alt 14),Comedy|Drama|Romance
+70,Father of the Bride Part II (1995 alt 14),Comedy
+71,Toy Story (1995 alt 15),Adventure|Animation|Children|Comedy|Fantasy
+72,Jumanji (1995 alt 15),Adventure|Children|Fantasy
+73,Grumpier Old Men (1995 alt 15),Comedy|Romance
+74,Waiting to Exhale (1995 alt 15),Comedy|Drama|Romance
+75,Father of the Bride Part II (1995 alt 15),Comedy
+76,Toy Story (1995 alt 16),Adventure|Animation|Children|Comedy|Fantasy
+77,Jumanji (1995 alt 16),Adventure|Children|Fantasy
+78,Grumpier Old Men (1995 alt 16),Comedy|Romance
+79,Waiting to Exhale (1995 alt 16),Comedy|Drama|Romance
+80,Father of the Bride Part II (1995 alt 16),Comedy
+81,Toy Story (1995 alt 17),Adventure|Animation|Children|Comedy|Fantasy
+82,Jumanji (1995 alt 17),Adventure|Children|Fantasy
+83,Grumpier Old Men (1995 alt 17),Comedy|Romance
+84,Waiting to Exhale (1995 alt 17),Comedy|Drama|Romance
+85,Father of the Bride Part II (1995 alt 17),Comedy
+86,Toy Story (1995 alt 18),Adventure|Animation|Children|Comedy|Fantasy
+87,Jumanji (1995 alt 18),Adventure|Children|Fantasy
+88,Grumpier Old Men (1995 alt 18),Comedy|Romance
+89,Waiting to Exhale (1995 alt 18),Comedy|Drama|Romance
+90,Father of the Bride Part II (1995 alt 18),Comedy
+91,Toy Story (1995 alt 19),Adventure|Animation|Children|Comedy|Fantasy
+92,Jumanji (1995 alt 19),Adventure|Children|Fantasy
+93,Grumpier Old Men (1995 alt 19),Comedy|Romance
+94,Waiting to Exhale (1995 alt 19),Comedy|Drama|Romance
+95,Father of the Bride Part II (1995 alt 19),Comedy
+96,Toy Story (1995 alt 20),Adventure|Animation|Children|Comedy|Fantasy
+97,Jumanji (1995 alt 20),Adventure|Children|Fantasy
+98,Grumpier Old Men (1995 alt 20),Comedy|Romance
+99,Waiting to Exhale (1995 alt 20),Comedy|Drama|Romance
+100,Father of the Bride Part II (1995 alt 20),Comedy
+101,Toy Story (1995 alt 21),Adventure|Animation|Children|Comedy|Fantasy
+102,Jumanji (1995 alt 21),Adventure|Children|Fantasy
+103,Grumpier Old Men (1995 alt 21),Comedy|Romance
+104,Waiting to Exhale (1995 alt 21),Comedy|Drama|Romance
+105,Father of the Bride Part II (1995 alt 21),Comedy
+106,Toy Story (1995 alt 22),Adventure|Animation|Children|Comedy|Fantasy
+107,Jumanji (1995 alt 22),Adventure|Children|Fantasy
+108,Grumpier Old Men (1995 alt 22),Comedy|Romance
+109,Waiting to Exhale (1995 alt 22),Comedy|Drama|Romance
+110,Father of the Bride Part II (1995 alt 22),Comedy
+111,Toy Story (1995 alt 23),Adventure|Animation|Children|Comedy|Fantasy
+112,Jumanji (1995 alt 23),Adventure|Children|Fantasy
+113,Grumpier Old Men (1995 alt 23),Comedy|Romance
+114,Waiting to Exhale (1995 alt 23),Comedy|Drama|Romance
+115,Father of the Bride Part II (1995 alt 23),Comedy
+116,Toy Story (1995 alt 24),Adventure|Animation|Children|Comedy|Fantasy
+117,Jumanji (1995 alt 24),Adventure|Children|Fantasy
+118,Grumpier Old Men (1995 alt 24),Comedy|Romance
+119,Waiting to Exhale (1995 alt 24),Comedy|Drama|Romance
+120,Father of the Bride Part II (1995 alt 24),Comedy
+121,Toy Story (1995 alt 25),Adventure|Animation|Children|Comedy|Fantasy
+122,Jumanji (1995 alt 25),Adventure|Children|Fantasy
+123,Grumpier Old Men (1995 alt 25),Comedy|Romance
+124,Waiting to Exhale (1995 alt 25),Comedy|Drama|Romance
+125,Father of the Bride Part II (1995 alt 25),Comedy
+126,Toy Story (1995 alt 26),Adventure|Animation|Children|Comedy|Fantasy
+127,Jumanji (1995 alt 26),Adventure|Children|Fantasy
+128,Grumpier Old Men (1995 alt 26),Comedy|Romance
+129,Waiting to Exhale (1995 alt 26),Comedy|Drama|Romance
+130,Father of the Bride Part II (1995 alt 26),Comedy
+131,Toy Story (1995 alt 27),Adventure|Animation|Children|Comedy|Fantasy
+132,Jumanji (1995 alt 27),Adventure|Children|Fantasy
+133,Grumpier Old Men (1995 alt 27),Comedy|Romance
+134,Waiting to Exhale (1995 alt 27),Comedy|Drama|Romance
+135,Father of the Bride Part II (1995 alt 27),Comedy
+136,Toy Story (1995 alt 28),Adventure|Animation|Children|Comedy|Fantasy
+137,Jumanji (1995 alt 28),Adventure|Children|Fantasy
+138,Grumpier Old Men (1995 alt 28),Comedy|Romance
+139,Waiting to Exhale (1995 alt 28),Comedy|Drama|Romance
+140,Father of the Bride Part II (1995 alt 28),Comedy
+141,Toy Story (1995 alt 29),Adventure|Animation|Children|Comedy|Fantasy
+142,Jumanji (1995 alt 29),Adventure|Children|Fantasy
+143,Grumpier Old Men (1995 alt 29),Comedy|Romance
+144,Waiting to Exhale (1995 alt 29),Comedy|Drama|Romance
+145,Father of the Bride Part II (1995 alt 29),Comedy
+146,Toy Story (1995 alt 30),Adventure|Animation|Children|Comedy|Fantasy
+147,Jumanji (1995 alt 30),Adventure|Children|Fantasy
+148,Grumpier Old Men (1995 alt 30),Comedy|Romance
+149,Waiting to Exhale (1995 alt 30),Comedy|Drama|Romance
+150,Father of the Bride Part II (1995 alt 30),Comedy
+151,Toy Story (1995 alt 31),Adventure|Animation|Children|Comedy|Fantasy
+152,Jumanji (1995 alt 31),Adventure|Children|Fantasy
+153,Grumpier Old Men (1995 alt 31),Comedy|Romance
+154,Waiting to Exhale (1995 alt 31),Comedy|Drama|Romance
+155,Father of the Bride Part II (1995 alt 31),Comedy
+156,Toy Story (1995 alt 32),Adventure|Animation|Children|Comedy|Fantasy
+157,Jumanji (1995 alt 32),Adventure|Children|Fantasy
+158,Grumpier Old Men (1995 alt 32),Comedy|Romance
+159,Waiting to Exhale (1995 alt 32),Comedy|Drama|Romance
+160,Father of the Bride Part II (1995 alt 32),Comedy
+161,Toy Story (1995 alt 33),Adventure|Animation|Children|Comedy|Fantasy
+162,Jumanji (1995 alt 33),Adventure|Children|Fantasy
+163,Grumpier Old Men (1995 alt 33),Comedy|Romance
+164,Waiting to Exhale (1995 alt 33),Comedy|Drama|Romance
+165,Father of the Bride Part II (1995 alt 33),Comedy
+166,Toy Story (1995 alt 34),Adventure|Animation|Children|Comedy|Fantasy
+167,Jumanji (1995 alt 34),Adventure|Children|Fantasy
+168,Grumpier Old Men (1995 alt 34),Comedy|Romance
+169,Waiting to Exhale (1995 alt 34),Comedy|Drama|Romance
+170,Father of the Bride Part II (1995 alt 34),Comedy
+171,Toy Story (1995 alt 35),Adventure|Animation|Children|Comedy|Fantasy
+172,Jumanji (1995 alt 35),Adventure|Children|Fantasy
+173,Grumpier Old Men (1995 alt 35),Comedy|Romance
+174,Waiting to Exhale (1995 alt 35),Comedy|Drama|Romance
+175,Father of the Bride Part II (1995 alt 35),Comedy
+176,Toy Story (1995 alt 36),Adventure|Animation|Children|Comedy|Fantasy
+177,Jumanji (1995 alt 36),Adventure|Children|Fantasy
+178,Grumpier Old Men (1995 alt 36),Comedy|Romance
+179,Waiting to Exhale (1995 alt 36),Comedy|Drama|Romance
+180,Father of the Bride Part II (1995 alt 36),Comedy
+181,Toy Story (1995 alt 37),Adventure|Animation|Children|Comedy|Fantasy
+182,Jumanji (1995 alt 37),Adventure|Children|Fantasy
+183,Grumpier Old Men (1995 alt 37),Comedy|Romance
+184,Waiting to Exhale (1995 alt 37),Comedy|Drama|Romance
+185,Father of the Bride Part II (1995 alt 37),Comedy
+186,Toy Story (1995 alt 38),Adventure|Animation|Children|Comedy|Fantasy
+187,Jumanji (1995 alt 38),Adventure|Children|Fantasy
+188,Grumpier Old Men (1995 alt 38),Comedy|Romance
+189,Waiting to Exhale (1995 alt 38),Comedy|Drama|Romance
+190,Father of the Bride Part II (1995 alt 38),Comedy
+191,Toy Story (1995 alt 39),Adventure|Animation|Children|Comedy|Fantasy
+192,Jumanji (1995 alt 39),Adventure|Children|Fantasy
+193,Grumpier Old Men (1995 alt 39),Comedy|Romance
+194,Waiting to Exhale (1995 alt 39),Comedy|Drama|Romance
+195,Father of the Bride Part II (1995 alt 39),Comedy
+196,Toy Story (1995 alt 40),Adventure|Animation|Children|Comedy|Fantasy
+197,Jumanji (1995 alt 40),Adventure|Children|Fantasy
+198,Grumpier Old Men (1995 alt 40),Comedy|Romance
+199,Waiting to Exhale (1995 alt 40),Comedy|Drama|Romance
+200,Father of the Bride Part II (1995 alt 40),Comedy
