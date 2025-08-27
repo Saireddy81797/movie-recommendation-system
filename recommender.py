@@ -1,27 +1,36 @@
+# recommender.py
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import linear_kernel
+from sklearn.metrics.pairwise import cosine_similarity
 
-class MovieRecommender:
-    def __init__(self, movies_path="data/movies.csv"):
-        self.movies = pd.read_csv(movies_path)
-        self.movies["genres"] = self.movies["genres"].fillna("")
-        
-        # TF-IDF vectorization on genres
-        self.tfidf = TfidfVectorizer(stop_words="english")
-        self.tfidf_matrix = self.tfidf.fit_transform(self.movies["genres"])
-        
-        # Compute cosine similarity
-        self.similarity_matrix = linear_kernel(self.tfidf_matrix, self.tfidf_matrix)
+# Load dataset
+movies = pd.read_csv("movies.csv")
 
-    def recommend(self, movie_title, top_n=5):
-        if movie_title not in self.movies["title"].values:
-            return [f"Movie '{movie_title}' not found in database."]
-        
-        idx = self.movies.index[self.movies["title"] == movie_title][0]
-        scores = list(enumerate(self.similarity_matrix[idx]))
-        scores = sorted(scores, key=lambda x: x[1], reverse=True)
-        scores = scores[1:top_n+1]  # skip the first (itself)
-        
-        recommended = [self.movies.iloc[i[0]]["title"] for i in scores]
-        return recommended
+# Fill NaN with empty string
+movies['genres'] = movies['genres'].fillna('')
+
+# TF-IDF Vectorizer on genres
+tfidf = TfidfVectorizer(stop_words="english")
+tfidf_matrix = tfidf.fit_transform(movies['genres'])
+
+# Cosine similarity
+cosine_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)
+
+# Reset index
+movies = movies.reset_index()
+indices = pd.Series(movies.index, index=movies['title']).drop_duplicates()
+
+def recommend_movies(title, num_recommendations=5):
+    if title not in indices:
+        return ["Movie not found in dataset. Try another title."]
+    
+    idx = indices[title]
+    sim_scores = list(enumerate(cosine_sim[idx]))
+    sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
+    sim_scores = sim_scores[1:num_recommendations+1]
+    movie_indices = [i[0] for i in sim_scores]
+    return movies['title'].iloc[movie_indices].tolist()
+
+if __name__ == "__main__":
+    print("Recommended movies for 'Toy Story (1995)':")
+    print(recommend_movies("Toy Story (1995)"))
