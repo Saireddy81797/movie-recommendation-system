@@ -1,19 +1,25 @@
+# app.py
 import streamlit as st
-from recommender import MovieRecommender
+import pandas as pd
+from recommender import recommend_movies
 
-# Load recommender
-recommender = MovieRecommender("data/movies.csv")
+# Load dataset
+movies = pd.read_csv("movies.csv")
+
+# -------------------------------
+# Streamlit App
+# -------------------------------
+st.set_page_config(page_title="Movie Recommendation System", page_icon="🎬")
 
 st.title("🎬 Movie Recommendation System")
-st.write("Get similar movie suggestions based on genres using content-based filtering.")
+st.write("Get similar movie recommendations based on genres using TF-IDF & Cosine Similarity.")
 
-movie_name = st.text_input("Enter a movie title:")
+# Select movie
+movie_list = movies['title'].values
+selected_movie = st.selectbox("Choose a movie:", movie_list)
 
 if st.button("Recommend"):
-    if movie_name:
-        recommendations = recommender.recommend(movie_name, top_n=5)
-        st.subheader("Recommended Movies:")
-        for r in recommendations:
-            st.write(f"- {r}")
-    else:
-        st.write("⚠️ Please enter a movie name.")
+    recommendations = recommend_movies(selected_movie, num_recommendations=5)
+    st.subheader("Recommended Movies:")
+    for i, rec in enumerate(recommendations, start=1):
+        st.write(f"{i}. {rec}")
